@@ -1,3 +1,23 @@
+//2d vector user input representation
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int n,m;
+    cin>>n>>m;
+    vector<vector<int>>mat(n,vector<int>(m));
+    for(int i=0;i<n;i++){
+        for(int j=0;j<m;j++){
+            cin>>mat[i][j];
+        }
+    }
+    for(int i=0;i<n;i++){
+        for(int j=0;j<m;j++){
+            cout<<mat[i][j]<<" ";
+        }
+        cout<<endl;
+    }
+}
+
 //2D vector representation
 program-1
 #include<bits/stdc++.h>
@@ -50,8 +70,6 @@ int main(){
 -1 -1 -1 -1 -1 
 -1 -1 -1 -1 -1 -1 
 -1 -1 -1 -1 -1 -1 -1 */
-
-
 
 
 
